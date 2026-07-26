@@ -4,7 +4,7 @@ Last updated: 2026-07-26
 
 ## Overview
 
-Ask is a server plugin that lets players send prompts to an AI provider chosen by the server owner. This policy explains what data may be processed by the plugin and by third-party AI services.
+AskAI is a server plugin that lets players send prompts to an AI provider chosen by the server owner. This policy explains what data may be processed by the plugin and by third-party AI services.
 
 ## Data the Plugin Processes
 

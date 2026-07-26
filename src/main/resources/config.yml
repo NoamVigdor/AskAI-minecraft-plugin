@@ -10,7 +10,7 @@ chat:
   prefix: "&bAsk&7> &r"
   waitMessage: "&7Thinking..."
   busyMessage: "&cAsk is busy right now. Please try again in a moment."
-  errorMessage: "&cThe Ask request failed. Ask an admin to check the server-side provider setup."
+  errorMessage: "&cThe AskAI request failed. Ask an admin to check the server-side provider setup."
   preferredReplyChars: 180
   maxCharsPerMessage: 220
 

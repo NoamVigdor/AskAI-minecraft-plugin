@@ -3,7 +3,7 @@
 ## Key Handling
 
 - API keys can no longer be set from in-game chat.
-- Store provider keys in `plugins/Ask/secrets.yml` on the server.
+- Store provider keys in `plugins/AskAI/secrets.yml` on the server.
 - The plugin creates empty `apiKey` entries for every supported key-based provider.
 - Never paste API keys into Minecraft chat, Discord, issue trackers, or screenshots.
 

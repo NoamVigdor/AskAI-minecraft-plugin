@@ -57,7 +57,7 @@ public final class MinecraftAiChatPlugin extends JavaPlugin {
         String[] frames = {
             "&8&m------------------------------------------------",
             "&b   ___          _    ",
-            "&b  / _ | ___ ___| |__ &7Loading Ask...",
+            "&b  / _ | ___ ___| |__ &7Loading AskAI...",
             "&3 / __ |(_-</ / / / / &7Providers ready",
             "&b/_/ |_|/___/_/_/_/_/ &7Use &f/Ask <message> &7or &f/AI",
             "&8&m------------------------------------------------"
@@ -74,7 +74,7 @@ public final class MinecraftAiChatPlugin extends JavaPlugin {
         Bukkit.getScheduler().runTaskLater(this, () ->
             Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes(
                 '&',
-                "&aAsk v" + getDescription().getVersion() + " enabled."
+                "&aAskAI v" + getDescription().getVersion() + " enabled."
             )),
             frames.length * 4L
         );

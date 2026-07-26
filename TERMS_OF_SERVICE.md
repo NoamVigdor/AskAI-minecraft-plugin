@@ -4,11 +4,11 @@ Last updated: 2026-07-26
 
 ## Acceptance
 
-By using Ask, you agree to these terms as applied by the server owner running the plugin.
+By using AskAI, you agree to these terms as applied by the server owner running the plugin.
 
 ## Service Description
 
-Ask is a plugin that forwards player prompts to a configured AI provider and returns generated replies in Minecraft chat.
+AskAI is a plugin that forwards player prompts to a configured AI provider and returns generated replies in Minecraft chat.
 
 The plugin is provided on an "as is" basis without guarantees of uninterrupted service, accuracy, moderation completeness, or fitness for a particular purpose.
 

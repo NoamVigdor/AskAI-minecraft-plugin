@@ -1,6 +1,6 @@
-# Ask
+# AskAI
 
-Ask is an open-source Minecraft AI chat plugin for Paper servers.
+AskAI is an open-source Minecraft AI chat plugin for Paper servers.
 
 Players can ask questions directly with `/Ask <message>`, while admins can manage provider settings with the legacy `/AI` admin commands.
 
@@ -41,7 +41,7 @@ gradle build
 
 2. Put the jar from `build/libs/` into your Paper server `plugins` folder.
 3. Start the server once.
-4. Open `plugins/Ask/secrets.yml`.
+4. Open `plugins/AskAI/secrets.yml`.
 5. Paste your provider key under the matching `apiKey:` entry.
 6. Run `/AI reload` or restart the server.
 

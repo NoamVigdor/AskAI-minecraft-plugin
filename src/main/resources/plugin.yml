@@ -1,9 +1,9 @@
-name: Ask
+name: AskAI
 version: ${version}
 main: io.github.opencraftai.minecraftchat.MinecraftAiChatPlugin
 api-version: "1.20"
 authors: [OpenCraftAI]
-description: Open-source Ask Minecraft chat plugin with multi-provider support.
+description: Open-source AskAI Minecraft chat plugin with multi-provider support.
 
 commands:
   ask:

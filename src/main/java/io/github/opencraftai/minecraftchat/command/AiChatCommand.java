@@ -93,7 +93,7 @@ public final class AiChatCommand implements CommandExecutor, TabCompleter {
 
     private boolean handleAskPrompt(CommandSender sender, String promptInput) {
         if (!isAskAllowed(sender)) {
-            sender.sendMessage(color("&cYou do not have permission to use Ask."));
+            sender.sendMessage(color("&cYou do not have permission to use AskAI."));
             return true;
         }
 
@@ -239,12 +239,12 @@ public final class AiChatCommand implements CommandExecutor, TabCompleter {
         }
 
         plugin.refreshRuntimeConfig();
-        sender.sendMessage(color("&aAsk reloaded."));
+        sender.sendMessage(color("&aAskAI reloaded."));
         return true;
     }
 
     private void sendHelp(CommandSender sender, String label) {
-        sender.sendMessage(color("&bAsk"));
+        sender.sendMessage(color("&bAskAI"));
         sender.sendMessage(color("&f" + PRIMARY_COMMAND + " <message> &7- Ask the AI"));
         sender.sendMessage(color("&7Legacy/admin prefix: &f" + LEGACY_COMMAND));
         sender.sendMessage(color("&f" + LEGACY_COMMAND + " ask <message> &7- Legacy ask command"));
