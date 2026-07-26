@@ -1,0 +1,20 @@
+name: Ask
+version: ${version}
+main: io.github.opencraftai.minecraftchat.MinecraftAiChatPlugin
+api-version: "1.20"
+authors: [OpenCraftAI]
+description: Open-source Ask Minecraft chat plugin with multi-provider support.
+
+commands:
+  ask:
+    description: Talk to the configured AI provider.
+    aliases: [ai]
+    usage: /Ask <message> or /AI <ask|reset|status|API|provider|model|reload>
+
+permissions:
+  ai.use:
+    description: Lets a player ask the AI questions.
+    default: true
+  ai.admin:
+    description: Lets a player manage AI provider settings.
+    default: op

@@ -1,0 +1,49 @@
+provider: openai
+model: gpt-4.1-mini
+
+systemPrompt: "You are a helpful Minecraft server assistant. Keep answers short, simple, and easy to read in Minecraft chat."
+temperature: 0.6
+maxTokens: 180
+conversationPairs: 6
+
+chat:
+  prefix: "&bAsk&7> &r"
+  waitMessage: "&7Thinking..."
+  busyMessage: "&cAsk is busy right now. Please try again in a moment."
+  errorMessage: "&cThe Ask request failed. Ask an admin to check the server-side provider setup."
+  preferredReplyChars: 180
+  maxCharsPerMessage: 220
+
+security:
+  allowPlayerRequests: true
+  requestCooldownSeconds: 3
+  maxPromptChars: 280
+  maxRequestsPerHour: 40
+  maxRequestsPerDay: 150
+  maxConcurrentRequests: 8
+
+outputSafety:
+  allowLinks: false
+  allowedLinkDomains: []
+  allowObfuscatedText: false
+  blockSensitiveRequestPatterns: true
+  removedLinkText: "[link removed]"
+  blockedResponseMessage: "&cI can't help ask for passwords, tokens, or other sensitive account data."
+
+providers:
+  openai:
+    baseUrl: "https://api.openai.com"
+  openrouter:
+    baseUrl: "https://openrouter.ai/api"
+  grok:
+    baseUrl: "https://api.x.ai"
+  together:
+    baseUrl: "https://api.together.xyz"
+  deepseek:
+    baseUrl: "https://api.deepseek.com"
+  anthropic:
+    baseUrl: "https://api.anthropic.com"
+  gemini:
+    baseUrl: "https://generativelanguage.googleapis.com"
+  ollama:
+    baseUrl: "http://127.0.0.1:11434"
